@@ -113,3 +113,13 @@ textarea {
 .mostrar-erro {
   visibility: visible;
 }
+
+@media(max-width: 768px){
+  main{
+    flex-direction: column;
+  }
+
+  form{
+    width: 100%;
+  }
+}
